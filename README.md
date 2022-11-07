@@ -14,6 +14,7 @@ public static void main(String[] args){
 
 }
 ##
+##
 # Variables
 
 
@@ -128,7 +129,7 @@ int numOranges = 5;
 numOranges--; // Value is now 4
 
 ##
-
+##
 # Object-Oriented Java
 
 // Java object's state and behavior
@@ -231,6 +232,7 @@ System.out.println("Age is"+p.age);
  
 }
 
+##
 ##
 # Condicionals and Control Flow
 
@@ -384,11 +386,31 @@ public class Studentd {
  
 System.out.println(studentList);
  
- }
+    }
  
 }
 
- 
+##
+##
+# For-each statement in Java
+
+// array of numbers
+
+ int[] numbers = {1, 2, 3, 4, 5};
+
+// for-each loop that prints each number in numbers
+
+// int num is the handle while numbers is the source array
+
+ for (int num : numbers) {
+
+     System.out.println(num);
+
+}
+
+##
+##
+
     
     
     
