@@ -458,7 +458,7 @@ public class Media {
             System.out.print("REPROVADO!,  com ");
         }
 
-        System.out.print("média final: " +  mf + " .");
+        System.out.print("media final: " +  mf + " .");
     }
 
 }
