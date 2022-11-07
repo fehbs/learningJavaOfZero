@@ -123,6 +123,116 @@ int numOranges = 5;
 numOranges--; // Value is now 4
 
 */
+##
+
+# Object-Oriented Java
+
+// Java object's state and behavior
+
+/*
+
+public class Person {
+
+// state of an object
+
+ int age;
+
+ String name;
+    
+// behavior of an object
+
+public void set_value() {
+
+ age = 20;
+
+ name = "Dracula";
+}
+public void get_value() {
+
+ System.out.println("Age is"+age);
+
+ System.out.println("Name is"+name);
+
+}
+
+    // main method
+
+public static void mai(String[]args) {
+
+// creates a new pe8rson object
+
+ Person p = new Person();
+
+// changes state through behavior
+
+ p.set_value();
+
+    }
+
+
+}
+
+// Java instance
+
+
+public class Person {
+
+ int age;
+
+ String name;
+    
+// Constructor method
+
+ public Person(int age, String name) {
+
+  this.age = age;
+
+  this.name = name;
+
+  }
+    
+public static void main(String[] args) {
+
+ Person Martin = new Person(25,"Martin");
+
+ Person Doc = new Person(49,"Doc"); 
+
+     }
+
+}
+    
+// Java dot notation
+
+public class Person {
+
+ int age;
+ 
+public static void mai(String[]args) {
+
+ Person p = new Person();
+ 
+ // here we use notation to set age
+
+ p.age = 20;
+ 
+// here we use dot notation to access
+ age and print
+
+System.out.println("Age is"+p.age);
+
+// Output: Age is 20
+
+    }
+
+ 
+}
+
+*/    
+    
+    
+    
+    
+
 
 
 
