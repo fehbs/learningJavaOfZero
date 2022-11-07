@@ -231,6 +231,75 @@ System.out.println("Age is"+p.age);
  
 }
 
+##
+# Condicionals and Control Flow
+
+* else Statement
+
+boolean condition1 = false;
+
+if(condition1) {
+
+    System.out.println("condition1 is true");
+}
+
+else {
+
+    System.out.println("condition1 is not true");
+
+}
+
+// Prints: condition is not true
+
+* else if Statements
+
+int testScore = 76;
+
+char grade;
+
+
+if(testScore >= 90) {
+
+    grade = 'A';
+
+} else if (testScore >= 80) {
+
+    grade = 'B';
+
+} else if (testScore >= 70) {
+
+    grade = 'C';
+
+} else if (testScore >= 60) {
+
+    grade = 'D';
+
+} else {
+
+    grade =  'F';
+
+}
+
+System.out.println("Grade:"+grade);
+
+// Prints: C 
+
+if Statement
+
+if(true) {
+
+    System.out.println("This code executes");
+}
+
+//Prints: This code executes
+
+if(false) {
+
+    System.out.println("This code does not execute");
+}
+
+// There is not output for the above statement
+
   
     
     
