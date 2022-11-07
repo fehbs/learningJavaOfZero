@@ -1,6 +1,8 @@
 # Learning Java of Zero on the Android
  🤘 🎃 ☕ 🔥🔥
 ##
+#### 🖖😎 I like to take my notes!
+##
 
 public class HelloJava {
     
