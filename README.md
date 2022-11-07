@@ -410,6 +410,58 @@ System.out.println(studentList);
 
 ##
 ##
+# Practicing
+
+### Programa Java estruturado para calcular média escolar.
+
+//importamos a classe Scanner para 
+ler os dados(import java.util.Scanner)
+
+import java.util.Scanner;
+
+public class Media {
+
+    public static void main(String args[]) 
+
+    {
+        java.util.Scanner nota = new Scanner(System.in);
+
+        float n1, n2, n3, n4, mf;
+
+        System.out.print("Nota 1 : ");
+
+        n1 = nota.nextFloat();
+
+        System.out.print("Nota 2 : ");
+
+        n2 = nota.nextFloat();
+
+        System.out.print("Nota 3 : ");
+
+        n3 = nota.nextFloat();
+
+        System.out.print("Nota 4 : ");
+
+        n4 = nota.nextFloat();
+
+        mf = (n1+n2+n3+n4)/4;
+
+        if(mf >= 7)
+
+        {
+            System.out.print("APROVADO!, com ");
+        }
+
+        else
+
+        {
+            System.out.print("REPROVADO!,  com ");
+        }
+
+        System.out.print("média final: " +  mf + " .");
+    }
+
+}
 
     
     
