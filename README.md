@@ -14,7 +14,6 @@ public static void main(String[] args){
 
 }
 
-/*
 
 int age = 28;
 
@@ -34,9 +33,11 @@ double pi = 3.14;*/
 
 
 int i = 10; // type int
+
 char ch = 'a'; // type is char
 
 j = 20; // won't compile, no type is given
+
 char name = "Lill"; // won't compile, data type
 
 
@@ -48,17 +49,17 @@ double PI = 3.14;
 
 double price = 5.75;
 
-Math Opetations
+* Math Operations
 
-+ addition
+ (+) addition
 
-- subtraction
+ (-) subtraction
 
-* multiplication
+ (*) multiplication
 
-/ division
+ (/) division
 
-% modulo (yelds the remainder)
+ (%) modulo (yelds the remainder)
 
 int a = 20;
 
@@ -76,19 +77,19 @@ result = a / b; // 2
 
 result a % b; // 0
 
-Comparison Operators
+ * Comparison Operators
 
-> greater than
+( > greater than )
 
-< less than 
+( < less than )
 
->= greater than or equal to
+( >= greater than or equal to )
 
-<= less than or equal to
+( <= less than or equal to )
 
-== equal to
+( == equal to )
 
-!= not equal to
+( != not equal to )
 
 int a = 5;
 
@@ -124,14 +125,12 @@ int numOranges = 5;
 
 numOranges--; // Value is now 4
 
-*/
 ##
 
 # Object-Oriented Java
 
 // Java object's state and behavior
 
-/*
 
 public class Person {
 
@@ -148,7 +147,8 @@ public void set_value() {
  age = 20;
 
  name = "Dracula";
-}
+
+    }
 public void get_value() {
 
  System.out.println("Age is"+age);
@@ -161,7 +161,7 @@ public void get_value() {
 
 public static void mai(String[]args) {
 
-// creates a new pe8rson object
+// creates a new person object
 
  Person p = new Person();
 
@@ -229,7 +229,7 @@ System.out.println("Age is"+p.age);
  
 }
 
-*/    
+  
     
     
     
