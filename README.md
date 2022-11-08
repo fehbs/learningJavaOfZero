@@ -132,7 +132,7 @@ numOranges--; // Value is now 4
 ##
 # Object-Oriented Java
 
-// Java object's state and behavior
+* Java object's state and behavior
 
 
 public class Person {
@@ -143,7 +143,7 @@ public class Person {
 
  String name;
     
-// behavior of an object
+* behavior of an object
 
 public void set_value() {
 
@@ -152,6 +152,7 @@ public void set_value() {
  name = "Dracula";
 
     }
+
 public void get_value() {
 
  System.out.println("Age is"+age);
@@ -160,7 +161,7 @@ public void get_value() {
 
 }
 
-    // main method
+ // main method
 
 public static void mai(String[]args) {
 
@@ -177,7 +178,7 @@ public static void mai(String[]args) {
 
 }
 
-// Java instance
+* Java instance
 
 
 public class Person {
@@ -206,7 +207,7 @@ public static void main(String[] args) {
 
 }
     
-// Java dot notation
+* Java dot notation
 
 public class Person {
 
@@ -231,6 +232,111 @@ System.out.println("Age is"+p.age);
 
  
 }
+
+
+* Constructor Method in Java
+
+public class Maths {
+
+ public Maths() {
+
+  System.out.println("I am contructor");
+
+ }
+ 
+ public static void main(String [] args) 
+
+ {
+
+ System.out.println("I am main");
+
+ Maths obj1 = new Maths();
+
+    }
+
+}
+
+* Creating a new Class instance in Java
+
+public class Person {
+
+ int age;
+
+ // Constructor:
+
+ public Person(int a) {
+
+  age = a;
+
+ }
+ 
+ public static void main(String [] args) 
+
+ {
+
+ // Here, we create a new instance of the person class:
+
+ Person p = new Person(20);
+ 
+ System.out.println("Age is " + p.age); 
+
+    }
+ 
+}
+
+
+* Reference Data Types
+
+public class Cat {
+
+ public Cat() {
+
+// instructions for creating a Cat instance
+
+ }
+ 
+ public static void main(String[] args) 
+
+ {
+
+// tom is declared with reference data type `Cat` 
+
+ Cat tom = new Cat();
+
+ System.out.println(tom);
+
+   }
+}
+
+
+* Contructor Signatures
+
+// The signatute is `Cat(String furLength, boolean hasClows)`.
+
+public class Cat {
+
+ String furType;
+
+ boolean containsClows;
+ 
+ public Cat(String furLength, boolean hasClows) 
+
+ {
+
+  furType = furLength;
+
+  containsClows = hasClows;
+     
+ }
+ 
+ public static void main(String [] args) 
+
+  Cat tom = new Cat("Long-hair",true); 
+
+   } 
+
+}
+
 
 ##
 ##
