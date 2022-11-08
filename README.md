@@ -463,6 +463,56 @@ public class Media {
 
 }
 
+##
+
+# Conversor de Temperaturas.
+
+Celsius convertido em:
+
+Kelvin(K), Réaumur(Re), 
+
+Rankine(Ra), Fahrenhert(F).
+
+Fórmulas: 
+
+F = C * 1.8 + 32;
+
+K = C + 273.15;
+
+Re = C * 0.8;
+
+Ra = C * 1.8 + 32 + 459.67 .
+
+
+
+public class Temperatura {
+
+ public static void main(String[] args) {
+
+  double C, K, F, Re, Ra;
+
+  C = 18.5;
+  
+  F = C * 1.8 + 32;
+
+  K = C + 273.15;
+
+  Ra = C * 1.8 + 32 + 459.67;
+
+  Re = C * 0.8;
+  
+  System.out.println("Fahrenheit: " + F);
+
+  System.out.println("Kelvin: " + K);
+
+  System.out.println("Reaumur: " + Ra);
+
+  System.out.println("Rankine: " + Re);
+
+    }
+
+}
+
     
     
     
