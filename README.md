@@ -333,7 +333,7 @@ public class Cat {
 
   Cat tom = new Cat("Long-hair",true); 
 
-   } 
+     } 
 
 }
 
