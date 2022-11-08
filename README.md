@@ -654,22 +654,22 @@ public class JavaImc {
     {
         System.out.println("Abaixo do peso: " );
 
-    } else if(i > 18.5 & i <= 24.9) 
+    } else if(i > 18.5 && i <= 24.9) 
 
     {
         System.out.println("Peso normal: ");
 
-    } else if(i > 25 & i <= 29.9) 
+    } else if(i > 25 && i <= 29.9) 
 
     {
         System.out.println("Sobrepeso: ");
 
-    } else if(i > 30 & i <= 34.9) 
+    } else if(i > 30 && i <= 34.9) 
 
     {
         System.out.println("Obesidade grau 1: ");
 
-    } else if(i > 35 & i <= 39.9)
+    } else if(i > 35 && i <= 39.9)
 
     {
         System.out.println("Obesidade grau 2: ");
