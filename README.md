@@ -620,6 +620,73 @@ public class Temperatura {
 
 }
 
+##
+### JavaImc 
+
+Menos do que 18,5 Abaixo do peso
+
+Entre 18,5 e 24,9 Peso normal
+
+Entre 25 e 29,9 Sobrepeso
+
+Entre 30 e 34,9 Obesidade grau 1
+
+Entre 35 e 39,9 Obesidade grau 2
+
+Mais do que 40 Obesidade grau 3
+
+
+
+public class JavaImc {
+
+ public static void main(String[]args) {
+
+    double p, a, i;
+    
+    p = 68.5;
+
+    a = 18.5;
+    
+    i = (p + a) / 2;
+    
+    if(i <= 18.5) 
+
+    {
+        System.out.println("Abaixo do peso: " );
+
+    } else if(i > 18.5 & i <= 24.9) 
+
+    {
+        System.out.println("Peso normal: ");
+
+    } else if(i > 25 & i <= 29.9) 
+
+    {
+        System.out.println("Sobrepeso: ");
+
+    } else if(i > 30 & i <= 34.9) 
+
+    {
+        System.out.println("Obesidade grau 1: ");
+
+    } else if(i > 35 & i <= 39.9)
+
+    {
+        System.out.println("Obesidade grau 2: ");
+
+    } else 
+
+    {
+        System.out.println("Obesidade grau 3: ");
+    }
+    
+    System.out.println(i + " kg");
+
+      }
+
+}
+
+##
     
     
     
