@@ -491,7 +491,7 @@ public class Temperatura {
 
   double C, K, F, Re, Ra;
 
-  C = 18.5;
+  C = 2.43;
   
   F = C * 1.8 + 32;
 
