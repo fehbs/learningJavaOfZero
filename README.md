@@ -647,7 +647,7 @@ public class JavaImc {
 
     a = 18.5;
     
-    i = (p + a) / 2;
+    i = (p * a) / 2;
     
     if(i <= 18.5) 
 
@@ -680,7 +680,7 @@ public class JavaImc {
         System.out.println("Obesidade grau 3: ");
     }
     
-    System.out.println(i + " kg");
+    System.out.println("IMC: " + i);
 
       }
 
