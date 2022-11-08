@@ -687,6 +687,46 @@ public class JavaImc {
 }
 
 ##
+## JavaDeathStar
+
+import java.util.Scanner;
+
+public class JavaDeathStar {
+
+ public static void main(String[] args) {
+
+  boolean go = true;
+
+  char option;
+
+  Scanner input = new Scanner(System.in);
+  
+  while(go) {
+
+   System.out.println("You are on the Java Death Star! ");
+   
+   System.out.println("Choose one side to exit: ");
+   
+   option = input.next().charAt(0);
+   
+   if(option == 'd') {
+
+       go = false;
+
+       System.out.println("Congratulations, you out of the Death Star");
+   }
+
+   else {
+
+       System.out.println("Not authorized.");
+   
+         }
+
+      }
+
+    }
+
+}
     
     
     
