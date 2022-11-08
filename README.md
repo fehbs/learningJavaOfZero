@@ -647,7 +647,7 @@ public class JavaImc {
 
     a = 18.5;
     
-    i = (p / a) ** 2;
+    i = p / (a * a);
     
     if(i <= 18.5) 
 
