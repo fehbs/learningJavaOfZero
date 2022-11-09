@@ -725,6 +725,68 @@ public class JavaDeathStar {
     }
  }
 
+##
+##
+
+public class breakTest {
+
+ public static void main(String[] args) {
+
+   long i = System.currentTimeMillis();
+
+   boolean print = true;
+   
+   for(int count=1; count <=100000; count++) {
+
+     if((count % 17 == 0) && (count % 19 == 0))
+
+        if(print) {
+
+           System.out.println("RESULT: " + count);
+
+           break;
+
+           //print = false;
+         }
+      }
+   
+   System.out.println(" Time of execution in milliseconds: "+ (System.currentTimeMillis() -i));
+
+    }
+
+}
+
+##
+
+public class continueTest {
+
+ public static void main(String[] args) {
+
+   long i = System.currentTimeMillis();
+   
+   for(int count = 1; count <= 1000000; count++) {
+
+     if(count % 2 == 0) {
+
+        continue;
+     }
+
+     if((count % 17 == 0) && (count % 19 == 0)) {
+
+        System.out.println(count);
+
+        break;
+      }
+    }
+ 
+ System.out.println("Time of execution in milliseconds: " + (System.currentTimeMillis() -i));
+
+   
+    }
+
+}
+
+
 
      
     
