@@ -515,6 +515,103 @@ System.out.println(studentList);
 
 }
 
+
+##
+##
+
+# Exceptions and Exception Handling in Java
+
+* Try-Catch Block:
+
+public class Main {
+
+ public static void main(String[] args) {
+
+  int n1, n2;
+
+  try {
+
+    n1 = 0;
+
+    n2 = 10 / n1;
+
+    System.out.println(n2);
+
+    System.out.println("This is the end of try block");
+
+  }
+
+  catch (ArithmeticException e) {
+
+    System.out.println("You can't divide a number by zero");  
+  }
+
+  catch (Exception e) {
+
+    System.out.println("Exception ocurred here");
+
+  }
+  
+  System.out.println(" Exit from try-catch block");
+
+    }
+
+}
+
+##
+
+* Nested Try-Catch Block:
+
+public class Main {
+
+ public static void main(String[] args) {
+
+   try {
+
+     try {
+         
+       System.out.println("Going to divide");
+
+       int b = 39 / 0;
+
+     }
+     
+       catch (ArithmeticException e) {
+
+         System.out.println(e);
+
+       }
+       
+       try {
+
+         int a[] = new int [5];
+
+         a[5] = 4;
+
+       }
+         catch(ArrayIndexOutOfBoundsException e) {
+
+           System.out.println(e);
+           
+         }
+         
+           System.out.println("Other statement");
+
+         }
+         
+           catch (Exception e) {
+
+             System.out.println("Handled");
+
+           }
+           
+           System.out.println("Normal flow...");
+    }
+
+}
+
+
+
 ##
 ##
 # Practicing
