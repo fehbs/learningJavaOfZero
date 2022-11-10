@@ -822,7 +822,80 @@ public class Increment {
 }
 
 ##
-#
+##
+
+import java.util.Scanner;
+
+public class variablesParams {
+    
+  public static float average(float... values) {
+
+    float average = 0;
+    
+    for(float value: values) {
+
+      average += value;
+
+    }
+    
+    return average/values.length;
+  }
+  
+  public static float majorNote(float n1, float n2, float n3) {
+
+    if(n1 >= n2) {
+       if(n1 >= n3)
+          return n1;
+    }else{
+       if(n2 >= n3)
+          return n2;
+    }
+    return n3;
+    
+  }
+  
+  public static float minorNote(float n1, float n2, float n3) {
+      
+    if(n1 <= n2) {
+      if(n1 <= n3)
+          return n1;
+    }else{
+      if(n2 <= n3)
+         return n2;
+    }
+    return n3;
+  
+}
+
+public static void main(String[] args) {
+
+    float n1, n2, n3;
+
+    Scanner input = new Scanner(System.in);
+    
+    System.out.print("Enter a value 1: ");
+
+    n1 = input.nextFloat();
+
+    System.out.print("Enter a value 2: ");
+
+    n2 = input.nextFloat();
+
+    System.out.print("Enter a value 3: ");
+
+    n3 = input.nextFloat();
+    
+    System.out.println("Major note was: " + majorNote(n1, n2, n3));
+
+    System.out.println("Minor note was: " + minorNote(n1, n2, n3));
+
+    System.out.println("Average with three notes: " + average(n1, n2, n3));
+
+    System.out.println("Average without a minor note: " + (n1+n2+n3 - minorNote(n1, n2, n3)) / 2);
+
+    }
+   
+}
 
 
      
