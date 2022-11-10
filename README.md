@@ -786,6 +786,43 @@ public class continueTest {
 
 }
 
+##
+##
+
+
+
+public class Increment {
+
+ public static void main(String[] args) {
+
+   int a,
+
+     b = 1;
+     
+    System.out.println("b= " + b);
+
+    System.out.println("a= b++");
+
+    a = b++;
+
+    System.out.println("Then: a =" + a);
+
+    System.out.println();
+    
+    System.out.println("b =" + b);
+
+    System.out.println("a = ++ b");
+
+    a = ++ b;
+
+    System.out.print("Then: a =" +a);
+
+    }
+
+}
+
+##
+#
 
 
      
