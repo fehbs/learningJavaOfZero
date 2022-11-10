@@ -994,6 +994,40 @@ public static void main(String[] args) {
    
 }
 
+##
+##
+
+## DarkScanner
+
+import java.util.Scanner;
+
+public class DarkScanner {
+
+ public static void main(String[] args) {
+
+  Scanner read = new Scanner(System.in);
+  
+  int age;
+
+  String name;
+  
+  System.out.printf("Enter your age:\n");
+
+  age = read.nextInt();
+  
+  read.nextLine();
+  
+  System.out.printf("\nEnter your name:\n");
+
+  name = read.nextLine();
+  
+  System.out.printf("\nResult:\n");
+
+  System.out.printf(" %s have %d years.\n", name, age);
+
+    }
+ 
+}
 
      
     
