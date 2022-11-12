@@ -1,5 +1,5 @@
 <div  align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+<img height="87%" width="87%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
           
 ##
 
@@ -8,6 +8,7 @@
 ##
 #### 🖖😎 I like to take my notes!
 ##
+
 </div>
 public class HelloJava {
     
@@ -15,9 +16,10 @@ public static void main(String[] args){
 
     System.out.println("I'm learning Java!");
 
-    }
+     }
 
 }
+</div>
 ##
 ##
 # Variables
@@ -134,7 +136,7 @@ int numOranges = 5;
 numOranges--; // Value is now 4
 ##
 ##
-
+</div>
 # Methods
 
 public class GbMethod {
@@ -1156,7 +1158,7 @@ public class DarkScanner {
  
 }
 
-     
+
     
     
     
