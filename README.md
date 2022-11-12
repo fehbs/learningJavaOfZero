@@ -159,6 +159,97 @@ public class GbMethod {
 }
 
 ##
+
+import java.util.Scanner;
+
+public class menu {
+    
+    public static void menu() {
+
+        System.out.println("\tClients register: ");
+        
+        System.out.println("0. End");
+
+        System.out.println("1. Include");
+
+        System.out.println("2. Update");
+
+        System.out.println("3. Remove");
+
+        System.out.println("4. Query");
+
+        System.out.println("Option: ");
+    }
+    
+    public static void include(){
+
+        System.out.println("Include");
+    }
+
+    public static void update(){
+
+        System.out.println("Update");
+    }
+
+    public static void remove(){
+
+        System.out.println("Remove");
+    }
+
+    public static void query(){
+
+        System.out.println("Query");
+
+    }
+
+    public static void main(String[] args){
+
+        int option;
+
+        Scanner input = new Scanner(System.in);
+        
+        do{
+            menu();
+
+            option = input.nextInt();
+
+            switch(option){
+
+                case 1:
+
+                include();
+
+                break;
+                
+                case 2:
+
+                update();
+
+                break;
+                
+                case 3:
+
+                remove();
+
+                break;
+                
+                case 4:
+
+                query();
+
+                break;
+                
+                default:
+
+                System.out.println("Invalid option.");
+            }
+
+        }while(option!=0);
+    }
+        
+}
+
+##
 ##
 
 # Object-Oriented Java
