@@ -10,6 +10,9 @@
 ##
 
 </div>
+
+<div>
+
 public class HelloJava {
     
 public static void main(String[] args){
@@ -19,10 +22,13 @@ public static void main(String[] args){
      }
 
 }
+
 </div>
 
 ##
 ##
+
+<div  align="center">
 
 # Variables
 
@@ -136,9 +142,12 @@ numApples++; // Value is now 6
 int numOranges = 5;
 
 numOranges--; // Value is now 4
+
 ##
 ##
+
 </div>
+
 # Methods
 
 public class GbMethod {
@@ -472,6 +481,7 @@ public class Cat {
 
 ##
 ##
+
 # Condicionals and Control Flow
 
 * else Statement
@@ -630,6 +640,7 @@ System.out.println(studentList);
 
 ##
 ##
+
 # For-each statement in Java
 
 // array of numbers
@@ -745,6 +756,7 @@ public class Main {
 
 ##
 ##
+
 # Practicing
 
 ### Programa Java estruturado para calcular média escolar.
@@ -849,6 +861,7 @@ public class Temperatura {
 }
 
 ##
+
 ### JavaImc 
 
 Menos do que 18,5 Abaixo do peso
@@ -915,6 +928,7 @@ public class JavaImc {
 }
 
 ##
+
 ## JavaDeathStar
 
 import java.util.Scanner;
