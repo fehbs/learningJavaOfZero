@@ -127,9 +127,40 @@ numApples++; // Value is now 6
 int numOranges = 5;
 
 numOranges--; // Value is now 4
+##
+##
+
+# Methods
+
+public class GbMethod {
+
+ public static void message() {
+
+     System.out.printf("George Boolean is the father of logic!\n");
+
+ }
+ 
+ public static void main(String[] args) {
+
+     System.out.printf("George Boolean is cool!\n");
+
+     message();
+ 
+    System.out.printf("George Boolean inspired me!\n");
+
+    for(int count=1; count <= 3;count++) {
+
+        message();
+        
+       }
+
+    }
+
+}
 
 ##
 ##
+
 # Object-Oriented Java
 
 * Java object's state and behavior
