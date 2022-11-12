@@ -1,9 +1,14 @@
+<div  align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+          
+##
+
 # Learning Java of Zero on the Android
  🤘 🎃 ☕ 🔥🔥
 ##
 #### 🖖😎 I like to take my notes!
 ##
-
+</div>
 public class HelloJava {
     
 public static void main(String[] args){
