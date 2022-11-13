@@ -1206,6 +1206,74 @@ public class DarkScanner {
  
 }
 
+##
+##
+
+* Java Secret Number
+
+import java.util.Random;
+
+import java.util.Scanner;
+
+public class SecretNumber{
+    
+    public static void tip(int shot, int snumber, int attempts ) {
+
+      if(shot == snumber) {
+
+          System.out.println("Congratulations! The secret number is " + snumber);
+
+          System.out.println("You tried " + attempts+ "x");
+
+      }else {
+
+          if(shot > snumber) {
+
+              System.out.println("Your shot it's greater than secret number.");
+              
+          }else {
+
+              System.out.println("Your shot it's less than secret number.");
+          }
+      
+    }
+}
+
+public static void main(String[] args) {
+
+    int shot = 0,
+
+    drawm,
+
+    attempts = 0;
+    
+    Scanner input = new Scanner(System.in);
+    
+    Random randomGenerator = new Random();
+
+    drawm = randomGenerator.nextInt(10) + 1;
+    
+    System.out.println("Enter a number between 1 and 10 drawn");
+    
+    do {
+
+        System.out.printf("\n\n\n\n**********\n");
+        
+        System.out.println("Number of attempts: " + attempts);
+        
+        System.out.print("Enter your shot: ");
+
+        shot = input.nextInt();
+        
+        attempts++;
+        
+        tip(shot, drawm, attempts);
+
+    }while(shot!=drawm);
+
+     } 
+
+}
 
     
     
