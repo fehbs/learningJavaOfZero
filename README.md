@@ -657,6 +657,38 @@ System.out.println(studentList);
 
 }
 
+##
+
+import java.util.Scanner;
+
+public class ForforArray{
+
+    public static void main(String[] args){
+
+        int[]number = new int[5];
+
+        int sum = 0;
+
+        Scanner input = new Scanner(System.in);
+        
+        for(int cont=0; cont<number.length; cont++){
+
+            System.out.print("Enter a number: " + (cont+1) + " : ");
+
+            number[cont] = input.nextInt();
+
+        }
+
+        for(int cont : number){
+
+            sum += cont;
+        }
+
+        System.out.println("Result: " + sum);
+        
+       }
+    
+}
 
 ##
 ##
