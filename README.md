@@ -1275,6 +1275,50 @@ public static void main(String[] args) {
 
 }
 
+##
+##
+
+public class ForEachResidentEvil
+
+{
+
+    public static void main(String[] arg)
+
+    {
+        {
+            int[] score = {101, 102, 95, 106, 160 };
+
+            int h_score = maximum(score);
+
+            System.out.println("The better score is: " + h_score);
+        }
+    }
+
+    public static int maximum(int[] numbers)
+
+    {
+        int maxScore = numbers[0];
+
+        for (int num : numbers)
+        
+        {
+            if (num > maxScore)
+
+            {
+                maxScore = num;
+            }
+        }
+
+        return maxScore;
+
+    }
+}
+
+##
+##
+
+
+    
     
     
     
