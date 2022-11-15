@@ -1376,6 +1376,10 @@ public class SomeMovies
         movies.add(movie3);
         
         System.out.println(movies);
+         
+        movies.remove(0);
+
+        System.out.println(movies);
         
     }
  
