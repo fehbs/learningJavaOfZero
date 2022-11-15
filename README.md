@@ -1426,7 +1426,7 @@ public class SomeSeries
         
         System.out.println(series);
 
-        //After ordened
+        //After orderly
         
     }
 }
