@@ -1349,6 +1349,38 @@ public class HellraiserLoop
 }
 
 ##   
+##
+
+import java.util.List;
+
+import java.util.ArrayList;
+
+public class SomeMovies
+
+{
+    public static void main(String[] args)
+
+    {
+        String movie1 = "Resident Evil";
+
+        String movie2 = "Allien";
+        
+        String movie3 = "Terminator";
+        
+        ArrayList<String> movies = new ArrayList<>();
+        
+        movies.add(movie1);
+        
+        movies.add(movie2);
+        
+        movies.add(movie3);
+        
+        System.out.println(movies);
+        
+    }
+ 
+}
+
 
 
     
