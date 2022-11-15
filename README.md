@@ -1385,6 +1385,52 @@ public class SomeMovies
  
 }
 
+##
+##
+
+import java.util.List;
+
+import java.util.ArrayList;
+
+import java.util.Collections;
+
+public class SomeSeries
+
+ {
+
+    public static void main(String[] args)
+
+ {
+
+        String serie1 = "Better call Saul";
+
+        String serie2 = "Walking Dead";
+
+        String serie3 = "Stranger Things";
+
+        String serie4 = "The Crown";
+
+        ArrayList<String> series = new ArrayList<>();
+
+        series.add(serie1);
+
+        series.add(serie2);
+
+        series.add(serie3);
+
+        series.add(serie4);
+        
+        System.out.println(series);
+        
+        Collections.sort(series);
+        
+        System.out.println(series);
+
+        //After ordened
+        
+    }
+}
+        
 
 
     
