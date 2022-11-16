@@ -1430,7 +1430,53 @@ public class SomeSeries
         
     }
 }
+ 
+##
+##
+
+    
+
+import java.util.ArrayList;
+
+public class SomeGames 
+
+{
+
+    public static void main(String[] args) 
+
+    {
+        ArrayList<String> games = new ArrayList<String>();
+
+        System.out.println(games);
         
+        games.add("Resident Evil");
+
+        games.add("Blackthorne");
+
+        games.add("Zelda - The link of the past");
+
+        games.add("Donkey Kong");
+
+        games.add("Super Metroid");
+        
+        //games.clear(); 
+
+        // removing arraylyst with the method .clear()
+        
+        //System.out.println(games.get(3)); 
+
+        // access index with the method .get()
+        
+        System.out.println("Games add: " + games);
+
+     }
+}
+
+##
+##
+
+
+   
 
 
     
